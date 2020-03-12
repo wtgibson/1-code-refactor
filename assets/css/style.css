@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* <!-- Removed Header class to reference semantic tag throughout --> */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +21,8 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* <!-- Changed seo class to id for single item --> */
+header h1 #seo {
     color: #d9dcd6;
 }
 
@@ -32,11 +34,13 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+/* <!-- Removed unneccesary li tag --> */
+header ul {
     list-style-type: none;
 }
 
-header div ul li {
+/* <!-- Removed unneccesary ul tag --> */
+header li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +54,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
