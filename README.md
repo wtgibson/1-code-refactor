@@ -11,13 +11,24 @@
 
 ## Summary 
 
+The purpose of the assignment was to refactor an existing website using the prompt and parameters below.
+
 ```
 User Story
 
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
+```
+The assignment was then graded upon the following criteria:
 
+1. Semantic HTML
+2. Logical Structure
+3. Accessible Alt Attributes
+4. Sequential Header Elements
+5. Concise & Descriptive Title
+
+```
 Acceptance Criteria
 
 GIVEN a webpage meets accessibility standards
@@ -35,27 +46,31 @@ THEN I find a concise, descriptive title
 
 ## Code Snippet
 
-```html
-<h1>Zoo</h1>
-    <img src="https://ichef.bbci.co.uk/childrens-responsive-ichef-live/r/720/1x/cbbc/the_zoo_who_are_you_quiz_index_new.jpg" alt="zoo">
-    <ul>
-        <li>Lion</li>
-        <li>Elephant</li>
-        <li>Seal</li>
-        <li>Buffalo</li>
-        <li>Giraffe</li>
-        <li>Penguin</li>
-        <li>Turtle</li>
-        <li>Whale</li>
-    </ul>
-```
+Below is an example of a block of code where I refactored the spacing and indentation as well as added semantic Header tags.
 
 ```html
-<html>
-
-</html>
+    <!-- Added Header tags & fixed spacing/indentation -->
+    <header class="header">
+        <h1>Hori<span class="seo">seo</span>n
+        </h1>
+        <div>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization
+                    </a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management
+                    </a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
 ```
-
 
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/wtgibson/)
