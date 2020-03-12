@@ -74,4 +74,7 @@ Below is an example of a block of code where I refactored the spacing and indent
 
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/wtgibson/)
+
 [GitHub](https://github.com/wtgibson/1-code-refactor)
+
+Special thanks to Brad Davis, Mahi, Kerwin for their assistance with the assignment!
