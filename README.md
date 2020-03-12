@@ -1,7 +1,7 @@
 # 01 HTML CSS Git: Code Refactor
 
 ## Site Picture
-![Site](code-refactor.png)
+![Site](./assets/images/code-refactor.png)
 
 ## Technologies Used
 - HTML - used to create elements on the DOM
@@ -46,13 +46,12 @@ THEN I find a concise, descriptive title
 
 ## Code Snippet
 
-Below is an example of a block of code where I refactored the spacing and indentation as well as added semantic Header tags.
+Below is an example of a block of code in the HTML file where I refactored the spacing and indentation as well as added semantic Header tags.
 
 ```html
-    <!-- Added Header tags & fixed spacing/indentation -->
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n
-        </h1>
+  <!-- Added Header tags, removed Header class, & adjusted spacing/indentation throughout section -->
+    <header>
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
                 <li>
@@ -71,10 +70,50 @@ Below is an example of a block of code where I refactored the spacing and indent
         </div>
     </header>
 ```
+Below is an example of a block of code in the CSS file where I refactored the Header class and changed redundant or removed unneccesary tags.
+
+```css
+/* <!-- Removed Header class to reference semantic tag throughout --> */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* <!-- Changed seo class to id for single item --> */
+header h1 #seo {
+    color: #d9dcd6;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* <!-- Removed unneccesary li tag --> */
+header ul {
+    list-style-type: none;
+}
+
+/* <!-- Removed unneccesary ul tag --> */
+header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+```
 
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/wtgibson/)
 
 [GitHub](https://github.com/wtgibson/1-code-refactor)
 
-Special thanks to Brad Davis, Mahi, Kerwin for their assistance with the assignment!
+Special thanks to Brad Davis, Mahisha Gunasekaran, Kerwin Hy for their input and assistance with the assignment!
