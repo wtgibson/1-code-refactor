@@ -1,14 +1,5 @@
 # 01 HTML CSS Git: Code Refactor
 
-## Site Picture
-![Site](./assets/images/code-refactor.png)
-
-## Technologies Used
-- HTML - used to create elements on the DOM
-- CSS - styles html elements on page
-- Git - version control system to track changes to source code
-- GitHub - hosts repository that can be deployed to GitHub Pages
-
 ## Summary 
 
 The purpose of the assignment was to refactor an existing website using the prompt and parameters below.
@@ -43,6 +34,15 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+
+## Site Picture
+![Site](./assets/images/code-refactor.png)
+
+## Technologies Used
+- HTML - used to create elements on the DOM
+- CSS - styles html elements on page
+- Git - version control system to track changes to source code
+- GitHub - hosts repository that can be deployed to GitHub Pages
 
 ## Code Snippet
 
@@ -112,6 +112,9 @@ header li {
 ```
 
 ## Author Links
+
+Will Gibson
+
 [LinkedIn](https://www.linkedin.com/in/wtgibson/)
 
 [GitHub](https://github.com/wtgibson/1-code-refactor)
